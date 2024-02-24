@@ -12,20 +12,19 @@ const Delivery = ({ alphaUser, setAlphaUser }) => {
     {
       question: "How much is the delivery charge?",
       answer:
-        "All orders with a value more than Rs. 1499 will be shipped free of cost. For orders worth Rs. 1499 or below, a nominal fee of Rs. 99 will be applied.",
+        "All orders valued at over Rs. 1499 will be shipped free of cost. For orders worth Rs. 1499 or below, a nominal fee of Rs. 99 will be applied.",
     },
     {
       question: "Do I get a refund for delivery charges?",
       answer: (
         <div>
           <p>
-            1. If the complete order is canceled, lost, or undelivered to your
-            preferred location, we will refund the entire order amount,
-            including the shipping cost, if paid online.
+            1. If the complete order is canceled, lost, or undelivered to your preferred location, we will refund the entire amount, including the shipping cost, if paid online.
+
+
           </p>
           <p>
-            2. If you return the order partially, the shipping charges will not
-            be refunded.
+            2. If you return the order partially, the shipping charges will not be refunded.
           </p>
         </div>
       ),
@@ -36,13 +35,13 @@ const Delivery = ({ alphaUser, setAlphaUser }) => {
         "Yes, currently international shipping is available on our orchyrex.com website.",
     },
     {
-      question: "Are there weight restrictions on deliveries?",
-      answer: "No, currently there are no weight restrictions on deliveries.",
+      question: "Are there weight restrictions on delivery?",
+      answer: "No, currently there are no weight restrictions on delivery.",
     },
     {
       question: "Do I need to be at home to receive my order?",
       answer:
-        "The delivery drivers can deliver your order when you are not at home. In that case, it will be picked up by a family member.",
+        "The driver can deliver your order when you are not at home. In that case, it will be picked up by a family member.",
     },
     {
       question: "What happens if my order gets lost in the post?",

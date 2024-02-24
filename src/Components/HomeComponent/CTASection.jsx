@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import img1 from "../../Assets/Untitled design (42).png";
 import img2 from "../../Assets/cta2.jpg";
 import img3 from "../../Assets/Orchyrex (1).png";
+
 const CTASection = () => {
   return (
     <div className="mx-auto container flex justify-center items-center py-12 px-4 sm:px-6 2xl:px-0">
@@ -13,7 +14,7 @@ const CTASection = () => {
               Modern Charm
             </p>
           </div>
-          <div className="mt-4 lg:w-4/5 xl:w-3/5">
+          <div className="mt-4 lg:w-4/5 xl:w-7/7">
             <p className="text-base leading-6 text-gray-600 font-bold">
               A unique blend of modern style and timeless charm. Elevate your
               wardrobe with this sleek and distinctive shirt.
@@ -63,7 +64,7 @@ const CTASection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row jusitfy-center items-center sm:space-x-5 xl:space-x-8 space-y-4 sm:space-y-0">
+        <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-5 xl:space-x-8 space-y-4 sm:space-y-0">
           <div>
             <img className="hidden lg:block" src={img1} alt="sofa" />
             <img

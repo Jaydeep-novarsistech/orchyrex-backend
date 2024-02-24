@@ -120,11 +120,7 @@ const ReturnAndRefaundPolicy = ({ alphaUser, setAlphaUser }) => {
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">Eligibility:</h3>
             <p>
-              To be eligible for a refund, the merchandise must be unused and
-              have all price tags intact. Please note that some items, such as
-              masks, Shirtitems, and products with a broken seal, are excluded
-              from our return policy. Certain items may have specific terms and
-              conditions, which will be product-specific.
+              To be eligible for a refund, the merchandise must be unused and have all price tags intact. Please note that some items, such as masks, items, and products with broken seals, are excluded from our return policy. Certain items may have specific terms and conditions, which will be product-specific.
             </p>
           </div>
 

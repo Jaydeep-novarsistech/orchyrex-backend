@@ -65,7 +65,7 @@ const PartyWearShirt = ({ alphaUser, setAlphaUser }) => {
   };
 
   // Filter products based on category (e.g., 'casual')
-  const filteredProducts = apiProducts.filter((product) => product.categories === 'Party-wear');
+  const filteredProducts = apiProducts.filter((product) => product.categories === 'Party wear');
 
   return (
   <>

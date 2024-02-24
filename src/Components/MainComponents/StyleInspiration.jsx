@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const StyleInspiration = () => {
   return (
-    <div className="md:mt-10 flex flex-col md:flex-row bg-[#ded5f3] text-black   w-auto	md:w-[50rem] md:ml-[15rem] items-center	">
+    <div className=" flex flex-col md:flex-row bg-[#ded5f3] text-black   w-auto	md:w-[50rem] md:ml-[15rem] items-center	">
       {/* Text Section */}
       <div className="w-full md:w-1/2 md:pr-4 text-center px-4 ">
         <h2 className="text-2xl font-bold uppercase mb-4 pt-2">

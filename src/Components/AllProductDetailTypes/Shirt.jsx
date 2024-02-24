@@ -8,7 +8,7 @@ import Services from "../HomeComponent/Services";
 import Footer from "../HomeComponent/Footer";
 import Navbar from "../HomeComponent/Navbar";
 
-const CasualShirtAll = ({ alphaUser, setAlphaUser }) => {
+const Shirt = ({ alphaUser, setAlphaUser }) => {
   React.useEffect(() => {
     document.documentElement.scrollTo(0, 0);
   }, []);
@@ -63,7 +63,7 @@ const CasualShirtAll = ({ alphaUser, setAlphaUser }) => {
 
   // Filter products based on category (e.g., 'casual')
   const filteredProducts = apiProducts.filter(
-    (product) => product.categories === "casual shirt"
+    (product) => product.categories === "all shirt"
   );
 
   return (
@@ -73,7 +73,7 @@ const CasualShirtAll = ({ alphaUser, setAlphaUser }) => {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 md:mb-[5rem] py-6 sm:px-6 sm:py-24 md:py-5 lg:max-w-7xl mt-[8rem] lg:px-8">
             <h1 className="text-4xl font-bold mb-6 text-center">
-              Casual Shirt
+              All Shirt
             </h1>
 
             {loading && (
@@ -84,7 +84,7 @@ const CasualShirtAll = ({ alphaUser, setAlphaUser }) => {
 
             {!loading && filteredProducts.length === 0 && (
               <p className="text-center text-gray-700">
-                No casual shirts available at the moment.
+                No shirt available at the moment.
               </p>
             )}
 
@@ -158,4 +158,4 @@ const CasualShirtAll = ({ alphaUser, setAlphaUser }) => {
   );
 };
 
-export default CasualShirtAll;
+export default Shirt;

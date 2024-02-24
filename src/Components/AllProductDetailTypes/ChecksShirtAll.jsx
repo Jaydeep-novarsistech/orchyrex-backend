@@ -73,7 +73,7 @@ const ChecksShirtAll = ({ alphaUser, setAlphaUser }) => {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 md:mb-[5rem] py-6 sm:px-6 sm:py-24 md:py-5 lg:max-w-7xl mt-[8rem] lg:px-8">
             <h1 className="text-4xl font-bold mb-6 text-center">
-              Checks Shirts
+              Checks Shirt
             </h1>
 
             {loading && (
@@ -84,7 +84,7 @@ const ChecksShirtAll = ({ alphaUser, setAlphaUser }) => {
 
             {!loading && filteredProducts.length === 0 && (
               <p className="text-center text-gray-700">
-                No casual shirts available at the moment.
+                No checks shirts available at the moment.
               </p>
             )}
 

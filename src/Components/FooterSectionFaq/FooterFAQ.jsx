@@ -86,7 +86,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
               holidays)
             </p>
             <p className="mb-4">By Post:</p>
-            <p className="mb-4">Mohalla Atarpura, Gajraula Amroha (U.P)</p>
+            <p className="mb-4">Mohalla Atarpura, Gajraula Amroha (U.P), Pin Code - 244235</p>
             <p className="mb-4">Grievance Officer:</p>
             <p className="mb-4">Mrs. Kanupriya Sharma</p>
             <p className="mb-4">Phone: +91 9111720303</p>
@@ -104,11 +104,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
             </p>
             <p className="mb-4 font-bold">Eligibility:</p>
             <p className="mb-4">
-              To be eligible for a refund, the merchandise must be unused and
-              have all price tags intact. Please note that some items, such as
-              masks, Shirtitems, and products with a broken seal, are excluded
-              from our return policy. Certain items may have specific terms and
-              conditions, which will be product-specific.
+              To be eligible for a refund, the merchandise must be unused and have all price tags intact. Please note that some items, such as masks, items, and products with a broken seal, are excluded from our return policy. Certain items may have specific terms and conditions, which will be product-specific.
             </p>
             <p className="mb-4 font-bold">Return Process:</p>
             <p className="mb-4">
@@ -157,7 +153,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
                   <a href="https://orchyrex.com/contact-us/">Contact Us</a>
                 </li>
                 <li>By phone number: +91 9111720303</li>
-                <li>By mail: Mohalla Atarpura, Gajraula Amroha (U.P)</li>
+                <li>By mail: Mohalla Atarpura, Gajraula Amroha (U.P) , Pin Code - 244235</li>
               </ul>
             </div>
 
@@ -268,7 +264,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
                   <a href="mailto:info@orchyrex.com">info@orchyrex.com</a>
                 </li>
                 <li>By phone: +91 9111720303</li>
-                <li>By mail: Mohalla Atarpura, Gajraula Amroha (U.P)</li>
+                <li>By mail: Mohalla Atarpura, Gajraula Amroha (U.P) , Pin Code - 244235</li>
               </ul>
               <p>
                 Or visit our{" "}
@@ -474,7 +470,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
                 <strong>Q.1 What is the T&amp;C for Flat 60% off?</strong>
               </p>
               <p>
-                Discount Details: Flat 60% off is applicable, but only on
+                Discount Details:A Flat 60% off is applicable, but only on
                 selected styles.
               </p>
               <p>
@@ -487,7 +483,7 @@ const FooterFAQ = ({ alphaUser, setAlphaUser }) => {
               </p>
               <p>
                 Offer Period: The offer is valid from 12th Jan to 15th Jan,
-                making it a limited period offer.
+                making it a limited-period offer.
               </p>
             </div>
 

@@ -17,7 +17,7 @@ const Footer = () => {
                 alt=""
                 className="sm:h-[80px] md:h-[60px] w-[18rem] mx-auto"
               />
-              <div className=" flex-col items-center mt-[8.5rem] lg:flex hidden">
+              <div className=" flex-col items-center mt-[9rem] lg:flex hidden">
                 <Link
                   to="https://www.facebook.com/people/Orchyrex/61551691127174/"
                   rel="noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
                   className="transition hover:opacity-75 text-gray-200"
                 >
                   <span className="sr-only">Facebook</span>
-                  <img src={facebooklogo} alt="" className="h-11 w-11" />
+                  <img src={facebooklogo} alt="" className="h-9 w-9" />
                 </Link>
               </div>
               <div className=" flex-col items-center mt-4 lg:flex hidden">
@@ -36,7 +36,7 @@ const Footer = () => {
                   className="transition hover:opacity-75 text-gray-200"
                 >
                   <span className="sr-only">Instagram</span>
-                  <img src={instalogo} alt="" className="h-11 w-11" />
+                  <img src={instalogo} alt="" className="h-9 w-9" />
                 </Link>
               </div>
               <div className=" flex-col items-center mt-4 lg:flex hidden">
@@ -47,7 +47,7 @@ const Footer = () => {
                   className="transition hover:opacity-75 text-gray-200"
                 >
                   <span className="sr-only">Twitter</span>
-                  <img src={tiwtterlogo} alt="" className="h-11 w-11 " />
+                  <img src={tiwtterlogo} alt="" className="h-9 w-9 " />
                 </Link>
               </div>
               <div className="flex flex-row items-center justify-center mt-[2rem] lg:hidden space-x-4">
@@ -85,7 +85,7 @@ const Footer = () => {
               <div className="col-span-2">
                 <div className="">
                   <h2 className="text-2xl font-bold uppercase text-white">
-                    WELCOME TO THE ORCHRyEX
+                    WELCOME TO THE ORCHYREX
                   </h2>
 
                   <p className="mt-4 text-gray-200 md:text-left text-center">
@@ -98,7 +98,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end ">
+              <div className="col-span-2 lg:col-span-3 lg:flex ">
                 <form className="w-full">
                   <label htmlFor="UserEmail" className="sr-only">
                     Email
@@ -243,14 +243,14 @@ const Footer = () => {
                     </Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link
                       to="#"
                       className=" transition hover:opacity-75 text-gray-200 hover:border-b"
                     >
                       Corprate Site
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

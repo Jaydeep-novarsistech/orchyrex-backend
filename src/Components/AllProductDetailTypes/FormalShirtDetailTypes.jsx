@@ -74,7 +74,7 @@ const FormalShirtDetailTypes = ({ alphaUser, setAlphaUser }) => {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 md:mb-[5rem] py-6 sm:px-6 sm:py-24 md:py-5 mt-[8rem] lg:max-w-7xl lg:px-8">
             <h1 className="text-4xl font-bold mb-6 text-center">
-              Formal Shirts
+              Formal Shirt
             </h1>
 
             {loading && (
@@ -85,7 +85,7 @@ const FormalShirtDetailTypes = ({ alphaUser, setAlphaUser }) => {
 
             {!loading && filteredProducts.length === 0 && (
               <p className="text-center text-gray-700">
-                No Formal shirts available at the moment.
+                No Formal shirt available at the moment.
               </p>
             )}
 

@@ -41,7 +41,7 @@ const ContactInformation = ({ alphaUser, setAlphaUser }) => {
 
           <div className="mb-6">
             <p className="font-bold">By Post:</p>
-            <p>Mohalla Atarpura, Gajraula Amroha (U.P)</p>
+            <p>Mohalla Atarpura, Gajraula Amroha (U.P), Pin Code - 244235</p>
           </div>
 
           <div className="mb-6">

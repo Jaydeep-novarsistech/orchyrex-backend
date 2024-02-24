@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navigate, Route, Routes} from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Main from "./Components/MainComponents/Main";
 import MainSectionHome from "./Components/HomeComponent/MainSectionHome";
 import ProductDetail from "./Components/AllProduct/ProductDetail";
@@ -36,6 +36,8 @@ import PrintedShirtAll from "./Components/AllProductDetailTypes/PrintedShirtAll"
 import ScrollButton from "./Components/ScrollButton/ScrollButton";
 import FooterFAQ from "./Components/FooterSectionFaq/FooterFAQ";
 import ForgotPassword from "./Components/FormsAll/ForgotPassword";
+import Shirt from "./Components/AllProductDetailTypes/Shirt";
+import DeleteUser from "./Components/UserProfile/DeleteUser";
 
 const App = () => {
   const [alphaUser, setAlphaUser] = useState(false);
@@ -44,7 +46,7 @@ const App = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) setAlphaUser(true);
-  },[]);
+  }, []);
 
   return (
     <div>
@@ -136,10 +138,13 @@ const App = () => {
               <LoginForm alphaUser={alphaUser} setAlphaUser={setAlphaUser} />
             }
           />
-           <Route
+          <Route
             path="/forgot-password"
             element={
-              <ForgotPassword alphaUser={alphaUser} setAlphaUser={setAlphaUser} />
+              <ForgotPassword
+                alphaUser={alphaUser}
+                setAlphaUser={setAlphaUser}
+              />
             }
           />
           <Route
@@ -161,6 +166,12 @@ const App = () => {
             }
           />
           <Route
+            path="/shirt"
+            element={
+              <Shirt alphaUser={alphaUser} setAlphaUser={setAlphaUser} />
+            }
+          />
+          <Route
             path="/casual-shirt"
             element={
               <CasualShirtAll
@@ -179,11 +190,16 @@ const App = () => {
             }
           />
           <Route
-            path="/t-shirt-all"
+            path="/tshirt"
             element={
               <TshirtAll alphaUser={alphaUser} setAlphaUser={setAlphaUser} />
             }
           />
+          {/* <Route
+  path={["/t-shirt", "/tshirt"]}
+  element={<TshirtAll alphaUser={alphaUser} setAlphaUser={setAlphaUser} />}
+/> */}
+
           <Route
             path="/checks-shirt"
             element={
@@ -275,6 +291,16 @@ const App = () => {
             path="/user-order-details"
             element={
               <UserOrderDetails
+                alphaUser={alphaUser}
+                setAlphaUser={setAlphaUser}
+              />
+            }
+          />
+
+          <Route
+            path="/delete-account"
+            element={
+              <DeleteUser
                 alphaUser={alphaUser}
                 setAlphaUser={setAlphaUser}
               />

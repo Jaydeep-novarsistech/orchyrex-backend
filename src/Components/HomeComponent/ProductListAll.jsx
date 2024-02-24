@@ -146,7 +146,7 @@ const imageInfo = [
     small: img4,
     text: "Discover the perfect blend in our cotton/polyester tees. Choose 90% cotton/10% polyester for a unique mix of comfort and style.",
     title: "T-Shirt",
-    slug: "/t-shirt-all",
+    slug: "/tshirt",
   },
 ];
 
@@ -172,7 +172,7 @@ const ProductListAll = () => {
                   <div className="opacity-0 bg-gradient-to-t from-yellow-500 via-yellow-500 to-opacity-30 group-hover:opacity-60 absolute top-0 left-0 h-80 w-full transition-opacity duration-300 ease-in-out" />
                   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                     <div className="flex items-center justify-center">
-                      <p className="text-white text-center">{info.text}</p>
+                      <p className="text-black font-semibold text-center">{info.text}</p>
                     </div>
                   </div>
                   <div className="mt-4">

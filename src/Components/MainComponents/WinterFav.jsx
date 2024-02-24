@@ -34,9 +34,9 @@ const SingleCard = ({ image, productAMt }) => {
 
 const WinterFav = () => {
   return (
-    <section className="bg-gray-2 pb-10 pt-10 md:pt-10 dark:bg-dark lg:pb-10 lg:pt-[100px]">
+    <section className="bg-gray-2 pb-10 pt-[4rem] md:pt-10 dark:bg-dark lg:pb-10 lg:pt-[100px]">
       <div
-        className="container flex flex-col lg:flex-row items-center gap-4 mt-[24rem] md:mt-[0rem]"
+        className="container flex flex-col lg:flex-row items-center gap-4 xl:mt-[1rem] sm:mt-[14rem]"
         style={{
           maxWidth: "100%",
         }}

@@ -30,6 +30,7 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
   const { _id } = useParams();
   const dispatch = useDispatch();
   const [apiProduct, setApiProduct] = useState([]);
+  
   const accessToken = localStorage.getItem("token");
 
   const axiosConfig = {
@@ -311,7 +312,7 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
               </button>
             </div>
 
-            <div className="my-10">
+            <div className="my-5">
               <div className="flex items-center gap-4">
                 <h2 className="flex items-center font-bold text-xl lg:text-2xl text-red-500">
                   <MdOutlineCurrencyRupee /> {apiProduct.productDiscountedPrice}
@@ -329,7 +330,7 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
               <h2 className="text-md text-gray-500">Includes all taxes</h2>
             </div>
 
-            <div className="my-10">
+            <div >
               <div className="flex items-center gap-4">
                 <h1 className="uppercase font-bold lg:text-xl">colour :</h1>
                 <h3 className="flex items-center font-semibold">
@@ -339,17 +340,17 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
               <h2 className="text-md text-gray-500">
                 14 days easy return and exchange applicable for this item
               </h2>
-              <h2 className="text-md mt-4 text-gray-900 font-bold">
+              <h2 className="text-md mt-2 text-gray-900 font-bold">
                 {apiProduct.size}
               </h2>
-              <p className="text-lg mt-4 font-bold text-black">
+              <p className="text-lg mt-2 font-bold text-black">
                 Size ( 5+ Available )
               </p>
             </div>
 
             <button
               onClick={handleOpenModal}
-              className="px-6 w-full mt-4 text-black hover:bg-[#C9AB52] duration-300 font-bold py-3 rounded-md bg-gray-300 "
+              className="px-6 w-full mt-2 text-black hover:bg-[#C9AB52] duration-300 font-bold py-2 rounded-md bg-gray-300 "
             >
               Size Chart
             </button>
@@ -357,7 +358,7 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
             {/* props  */}
             <ImageModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
-            <div className="flex flex-col lg:flex-row gap-5 items-center my-5">
+            <div className="flex flex-col lg:flex-row gap-5 items-center my-3">
               <h1 className="text-red-700 font-bold text-2xl mr-2 border px-3 py-1 uppercase">
                 Size
               </h1>
@@ -415,7 +416,7 @@ const ProductDetails = ({ alphaUser, setAlphaUser }) => {
               </div>
             </div>
 
-            <div className="flex lg:flex-row flex-col md:mt-14 mb-3">
+            <div className="flex lg:flex-row flex-col md:mt-2 mb-3">
               <div className="w-full flex items-center gap-4">
                 {/* <button onClick={favCall} className='bg-[#eee9e9] shadow-2xl rounded-full p-3'>
                   {favorites ? (

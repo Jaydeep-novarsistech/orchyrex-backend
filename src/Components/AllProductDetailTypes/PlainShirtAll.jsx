@@ -73,7 +73,7 @@ const PlainShirtAll = ({ alphaUser, setAlphaUser }) => {
     <Navbar alphaUser={alphaUser} setAlphaUser={setAlphaUser}/>
   <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 md:mb-[5rem] py-6 sm:px-6 sm:py-24 md:py-5 lg:max-w-7xl mt-[8rem] lg:px-8">
-        <h1 className="text-4xl font-bold mb-6 text-center">Plain Shirts</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center">Plain Shirt</h1>
 
         {loading && (
           <div className="flex justify-center items-center">
@@ -82,7 +82,7 @@ const PlainShirtAll = ({ alphaUser, setAlphaUser }) => {
         )}
 
         {!loading && filteredProducts.length === 0 && (
-          <p className="text-center text-gray-700">No casual shirts available at the moment.</p>
+          <p className="text-center text-gray-700">No plain shirt available at the moment.</p>
         )}
 
         {!loading && filteredProducts.length > 0 && (

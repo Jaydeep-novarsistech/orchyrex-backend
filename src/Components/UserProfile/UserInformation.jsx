@@ -272,9 +272,12 @@ const UserInfo = ({ alphaUser, setAlphaUser }) => {
                   <FaShoppingCart color={'orange'} /> My Orders
                 </li>
                 </Link>
+                
+                <Link to="/delete-account">
                 <li className='uppercase pb-4 text-gray-700 flex items-center gap-3 hover:translate-x-2 duration-300 cursor-pointer'>
                   <FaUser color={'orange'} /> Account Settings
                 </li>
+                </Link>
                 <li className='uppercase pb-4 text-gray-700 flex items-center gap-3 hover:translate-x-2 duration-300 cursor-pointer'>
                   <MdOutlinePayment color={'orange'} /> Payments
                 </li>

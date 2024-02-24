@@ -8,12 +8,13 @@ import car1 from "../../Assets/careosel.png";
 import car2 from "../../Assets/new collection (1).jpg";
 import car3 from "../../Assets/new banner.jpg";
 import { Link } from "react-router-dom";
+
 const NextArrow = ({ onClick }) => (
   <button
     className="absolute top-1/2 right-0 transform -translate-y-1/2 cursor-pointer z-10"
     onClick={onClick}
   >
-    <FaChevronRight size={32} />
+    {/* <FaChevronRight size={32} /> */}
   </button>
 );
 
@@ -22,7 +23,7 @@ const PrevArrow = ({ onClick }) => (
     className="absolute top-1/2 left-0 transform -translate-y-1/2 cursor-pointer z-10"
     onClick={onClick}
   >
-    <FaChevronLeft size={32} />
+    {/* <FaChevronLeft size={32} /> */}
   </button>
 );
 
@@ -50,7 +51,7 @@ const SliderBanner = () => {
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        breakpoint: 600, // Custom breakpoint for better responsiveness
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -74,21 +75,16 @@ const SliderBanner = () => {
   };
 
   return (
-    <div className="container mx-auto my-8 relative mt-20">
+    <div className="container mx-auto my-8 relative mt-[10rem] lg:mt-8 xl:mt-[7rem]">
       <Link to={"/show-now-main"}>
         <Slider {...settings}>
-          {/* Slide 1 */}
           <SlideWithButton
             src={car1}
             alt="Slide 1"
             buttonText="Learn More"
             className="saturate-0"
           />
-
-          {/* Slide 2 */}
           <SlideWithButton src={car2} alt="Slide 2" buttonText="Learn More" />
-
-          {/* Slide 3 */}
           <SlideWithButton src={car3} alt="Slide 3" buttonText="Learn More" />
         </Slider>
       </Link>
